@@ -8,8 +8,8 @@ function HeroSection() {
   return (
     <section className="hero relative">
 
-      <img className="hero-image" src="https://media.discordapp.net/attachments/1417500188565831681/1418125378236715058/genie_2_1.png?ex=68ccfbad&is=68cbaa2d&hm=8a672ad1e684b91249dda5643a6daacf5e9d8826badbe0cba13df67dcc25223d&=&format=webp&quality=lossless" alt="Hero Image"
-      />
+      {/* <img className="hero-image" src="https://media.discordapp.net/attachments/1417500188565831681/1418125378236715058/genie_2_1.png?ex=68ccfbad&is=68cbaa2d&hm=8a672ad1e684b91249dda5643a6daacf5e9d8826badbe0cba13df67dcc25223d&=&format=webp&quality=lossless" alt="Hero Image"
+      /> */}
 
       <h1 className="hero-title">
         <div>
