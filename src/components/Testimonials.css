@@ -1,0 +1,76 @@
+.testimonials {
+  background: #ffffff;
+  padding: 4rem 1.5rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 3rem;
+}
+
+.testimonials .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.testimonials .card {
+  background: #f9fafb;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.testimonials .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.testimonials .quote {
+  font-size: 1rem;
+  font-style: italic;
+  color: #374151;
+  margin-bottom: 1.5rem;
+}
+
+.testimonials .author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonials .author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonials .author h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.testimonials .author span {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .testimonials .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .testimonials {
+    padding: 6rem 3rem;
+  }
+}

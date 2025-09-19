@@ -1,0 +1,154 @@
+.container {
+  width: 100%;
+  height: 50vh;
+  background-color:white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  justify-content: center;
+}
+
+/* Central Blue Circle */
+.centralCircle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #0080ff 0%, #0066cc 100%);
+  border-radius: 50%;
+  position: absolute;
+  padding-bottom: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 30px rgba(0, 128, 255, 0.5);
+}
+
+/* Employers Group */
+.employersGroup {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+/* Recruiters Group */
+.recruitersGroup {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+/* Candidates Group */
+.candidatesGroup {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #0080ff, #0066cc);
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+/* Avatar Stack */
+.avatarStack {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #ddd;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: -8px;
+  position: relative;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
+
+/* Labels */
+.label {
+  background: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.candidateLabel {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Action Icons */
+/* .messageIcon {
+  position: absolute;
+  top: 35%;
+  right: 20%;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.calendarIcon {
+  position: absolute;
+  bottom: 35%;
+  right: 20%;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+} */
+
+/* .messageIcon svg,
+.calendarIcon svg {
+  width: 20px;
+  height: 20px;
+  color: #666;
+}
+
+/* Responsive 
+@media (max-width: 768px) {
+  .employersGroup {
+    top: 20%;
+    left: 20%;
+  }
+  
+  .recruitersGroup {
+    top: 40%;
+    left: 10%;
+  }
+  
+  .messageIcon {
+    right: 15%;
+  }
+  
+  .calendarIcon {
+    right: 15%;
+  }
+} */

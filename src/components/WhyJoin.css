@@ -1,0 +1,135 @@
+/* /* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+.why-join {
+background-color:rgb(244, 242, 241);
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.why-join .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.why-join .title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.why-join .title span {
+  color: #0070f3; 
+}
+
+.why-join .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.why-join .card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.why-join .icon {
+  font-size: 2rem;
+  background-color: #e6f0ff;
+  color: #0070f3;
+  padding: 15px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.why-join h3 {
+  font-size: 1.2rem;
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.why-join p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.profile{
+  border-right: 1px solid #222;
+  padding-right: 25px;
+}
+
+.link{
+  border-right: 1px solid #222;
+  padding-right: 25px;
+} */
+
+.why-join {
+  padding: 5rem 2rem;
+  text-align: center;
+  background-color: #FFFBF5; /* new background */
+  /* font-family: "Inter", sans-serif; */
+}
+
+
+h3 {
+  font-family: 'Eula';
+  font-weight: 300 !important;
+  font-size: 1.5rem;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  /* font-weight: 700; */
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-bottom: 3rem;
+}
+
+.reasons {
+  display: flex;
+  justify-content: center;
+  align-items: stretched;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));*/
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.reason-card {
+  background: #ffffff;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reason-card h3 {
+  margin-bottom: 1.5rem;
+  /* font-family: "Satoshi", "Satoshi Placeholder", sans-serif; */
+ 
+}
+
+.reason-card p {
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.reason-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,64 @@
+.achievements {
+  background: #f9fafb; /* light gray */
+  padding: 4rem 1.5rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.achievements h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937; /* dark gray */
+  margin-bottom: 3rem;
+}
+
+.achievements .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.achievements .card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.achievements .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.achievements .card h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2563eb; /* blue */
+  margin-bottom: 0.5rem;
+}
+
+.achievements .card .title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #374151; /* medium gray */
+}
+
+.achievements .card .desc {
+  font-size: 0.9rem;
+  color: #6b7280; /* light gray */
+  margin-top: 0.5rem;
+}
+
+/* Responsive */
+@media (min-width: 640px) {
+  .achievements .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .achievements .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
