@@ -4,13 +4,12 @@ import Header from "@/components/Header.jsx";
 import WhyJoin from "@/components/WhyJoin.jsx";
 import Footer from "@/components/Footer.jsx";
 import styles from "./page.module.css";
-import HowItWorks from "@/components/HowItWorks.jsx";
-import AnimationList from "@/components/AnimationList.jsx";
-import { BsEnvelopeOpen } from "react-icons/bs";
-import Achievements from "@/components/Achievements";
-import Testimonials from "@/components/Testimonials.jsx";
-import Comparison from "@/components/comparison.jsx";
-import FAQ from "@/components/FAQ.jsx";
+// import HowItWorks from "@/components/HowItWorks.jsx";
+// import AnimationList from "@/components/AnimationList.jsx";
+// import Achievements from "@/components/Achievements";
+// import Testimonials from "@/components/Testimonials.jsx";
+// import Comparison from "@/components/comparison.jsx";
+// import FAQ from "@/components/FAQ.jsx";
 
 
 function page() {

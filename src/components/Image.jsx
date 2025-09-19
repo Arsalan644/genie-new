@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Image.module.css";
 import { BsEnvelopeOpen } from "react-icons/bs";
 
-const Image = () => {
+const Images = () => {
   return (
     <div className={styles.container}>
       {/* Employers Group */}
@@ -43,4 +43,4 @@ const Image = () => {
   );
 };
 
-export default Image;
+export default Images;
