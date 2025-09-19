@@ -23,7 +23,6 @@ header {
 
 .logo{
     font-family: bungee;
-    /* text-size: 2rem; */
     font-size: 2rem;
     font-weight: 700;
     text-transform: capitalize;
@@ -45,13 +44,12 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
-    /* font-family: "Satoshi", "Satoshi Placeholder", sans-serif; */
+
     font-weight: 300;
     line-height: 1.6em;
 }
 
 .start-hiring {
-    /* font-family: "Satoshi", "Satoshi Placeholder", sans-serif; */
     font-weight: 300;
     text-decoration: none;
     color: #333;
@@ -62,8 +60,6 @@ header {
     border: none;
     padding: 0.7rem 1.2rem;
     border-radius: 144px;
-    /* border: 1px solid #000; */
-
     box-sizing: border-box;
     cursor: pointer;
     opacity: 1;
@@ -75,21 +71,18 @@ header {
 }
 
 .join-10-mins {
-    /* font-family: "Satoshi", "Satoshi Placeholder",  sans-serif; */
     font-weight: 300;
     text-decoration: none;
-    /* border: 1px solid #333; */
     background-color: #18453B;
     color: white;
     font-size: 16px;
-    /* border:1px solid #000; */
     box-sizing: border-box;
     padding: 0.7rem 1.2rem;
     border-radius: 144px;
     cursor: pointer;
     &:hover {
         transform: translateY(-2px);
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px; 
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
     }
 }
 
@@ -99,11 +92,6 @@ header {
     justify-content: space-between;
     gap: 10px;
 }
-
-/* .img{
-    width: 50%;
-    height: 50%;
-} */
 
 .logo-text {
     text-decoration: none;

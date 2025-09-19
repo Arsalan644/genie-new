@@ -19,21 +19,17 @@ function page() {
       <HeroSection />
         <Image
           className=" w-[100vw] h-auto "
-        
-          src="/Assets/one.webp"
+          src="/Assets/mockup-genie.svg"
           alt="Hero Image"
-           width={827}
+          width={827}
         height={465}
         />
-
-        
       <WhyJoin />
       {/* <div className={styles.whyJoinParent}>
         <Image />
       </div> */}
       {/* <HowItWorks />
       <div className="h-20 w-full">
-
       </div>
       <AnimationList />
       <Achievements />
@@ -41,7 +37,6 @@ function page() {
       <Comparison />
       <FAQ />
       */}
-      {/* <Footer />  */}
       <Footer />
     </main>
   );

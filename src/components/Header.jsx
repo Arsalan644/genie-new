@@ -1,4 +1,4 @@
-// "use client";
+
 import React from "react";
 import "./header.css";
 import { mainlux, metropolis, eula } from "../app/layout.js";
@@ -24,9 +24,6 @@ const Header = () => {
           <li>
             <a className="text-shadow-md" href="/Comparisons">Comparisons</a>
           </li>
-          {/* <li>
-            <a href="/FAQ ">Faqs</a>
-          </li> */}
           <li>
             <a className="text-shadow-md" href="/Testimonials">Testimonials</a>
           </li>
