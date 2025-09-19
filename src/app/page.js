@@ -10,14 +10,14 @@ import styles from "./page.module.css";
 // import Testimonials from "@/components/Testimonials.jsx";
 // import Comparison from "@/components/comparison.jsx";
 // import FAQ from "@/components/FAQ.jsx";
-
+import Image from 'next/image'
 
 function page() {
   return (
     <main className={styles.main}>
       <Header />
       <HeroSection />
-        <img
+        <Image
           className=" w-[100vw] h-auto "
           // style={{
           //   display: "block",
@@ -28,9 +28,13 @@ function page() {
           //   objectFit: "fill",
           //   boxSizing: "border-box",
           // }}
-          src="https://media.discordapp.net/attachments/1417500188565831681/1418194686379560970/mockup_genie_2.png?ex=68cd3c3a&is=68cbeaba&hm=bbe003db6a32f139ad7569c99815042d01f888720e0f1182eb21a25154e13abf&=&format=webp&quality=lossless&width=982&height=552"
+          src="/Assets/one.webp"
           alt="Hero Image"
+           width={827}
+        height={465}
         />
+
+        
       <WhyJoin />
       {/* <div className={styles.whyJoinParent}>
         <Image />
