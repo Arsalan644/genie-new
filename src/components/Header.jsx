@@ -10,8 +10,8 @@ const Header = () => {
     <header className={eula.className}>
       <a href="/" className="logo">
         <Image
-            src='/Assets/main-logo.png'
-            width={150}
+            src='/Assets/logo.png'
+            width={100}
             height={100}
             alt="Genie Logo"
         />
