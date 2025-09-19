@@ -3,7 +3,8 @@ import React from "react";
 import "./header.css";
 import { mainlux, metropolis, eula } from "../app/layout.js";
 import { museoModerno } from "@/app/layout"; 
-import Image from 'next/Image'
+import Image from 'next/Image';
+
 const Header = () => {
   return (
     <header className={eula.className}>
