@@ -19,15 +19,7 @@ function page() {
       <HeroSection />
         <Image
           className=" w-[100vw] h-auto "
-          // style={{
-          //   display: "block",
-          //   width: "50%",
-          //   height: "30%",
-          //   borderRadius: "inherit",
-          //   objectPosition: "center",
-          //   objectFit: "fill",
-          //   boxSizing: "border-box",
-          // }}
+        
           src="/Assets/one.webp"
           alt="Hero Image"
            width={827}
